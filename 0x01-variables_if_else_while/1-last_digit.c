@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
- * main - random values
- * Return - always 0
+ * main - assign random values to a letter n
+ * Return - always 0 (success)
  */
 int main(void)
 {
