@@ -1,10 +1,10 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <stdio.h>
+#include <stdio.h>
 
 /**
- * main - assign random values to a letter n
- * Return - always 0 (success)
+ * main - assign a random value to n when executed
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -21,3 +21,6 @@ int main(void)
 		printf("and is less than 6 and not 0\n");
 	return (0);
 }
+
+
+
