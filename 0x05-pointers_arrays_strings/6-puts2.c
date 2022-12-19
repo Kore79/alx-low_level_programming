@@ -5,7 +5,7 @@
  * @str: use char to check
  * Return: 0
  */
-voi puts2(char *str)
+void puts2(char *str)
 {
 	int string;
 
