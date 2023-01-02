@@ -22,6 +22,6 @@ void print_diagsums(int *a, int size)
 		z = (y * size) + (size - 1 - y);
 		c += *(a + z);
 	}
-	_putchar("%d, %d", r, c);
+	printf("%d, %d", r, c);
 	_putchar('\n');
 }
