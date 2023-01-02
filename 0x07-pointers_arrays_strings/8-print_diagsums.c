@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_diagsums -print sum of two diagonals
@@ -22,6 +23,6 @@ void print_diagsums(int *a, int size)
 		z = (y * size) + (size - 1 - y);
 		c += *(a + z);
 	}
-	printf("%d, %d", r, c);
-	_putchar('\n');
+	printf("%d, %d\n", r, c);
+	
 }
