@@ -5,6 +5,7 @@
  * @s:1st occurence of string
  * @accept:matches one of the bytes
  * Return:pointer to the byte in s that matches the one in accept
+ * @NULL: if no byte
  */
 char *_strpbrk(char *s, char *accept)
 {
@@ -21,5 +22,5 @@ char *_strpbrk(char *s, char *accept)
 		s++;
 	}
 
-	return ('\0');
+	return (NULL);
 }
